@@ -28,33 +28,17 @@
             <div class="col-md-12">
                 <div class="card px-3">
                     <div class="card-body">
+                      <form id="create-task">
                         <h4 class="card-title">Awesome Todo list</h4>
-                        <div class="add-items d-flex"> <input type="text" class="form-control todo-list-input" placeholder="What do you need to do today?"> <button class="add btn btn-primary font-weight-bold todo-list-add-btn">Add</button> </div>
+                        <input id="new-task-content" type="text" placeholder="new task" required/>
+                          <button>Create</button>
                         <div class="list-wrapper">
                           <div id="todo-list">
-                            <ul class="d-flex flex-column-reverse todo-list">
-                                <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> item 0 <i class="input-helper"></i></label> </div>
-                                </li>
-                                <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> item 1 <i class="input-helper"></i></label> </div>
-                                </li>
-                                <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> item 2 <i class="input-helper">
-                                </li>
-                                <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> item 3 <i class="input-helper"></i></label> </div>
-                                </li>
-                                <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> item 4 <i class="input-helper"></i></label> </div>
-                                </li>
-                                <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> item 5 <i class="input-helper"></i></label> </div>
-                                </li>
-                            </ul>
+
                           </div>
                         </div>
                     </div>
+                  </form>
                 </div>
             </div>
         </div>
